@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    --font: cursive;
+
+}
+
+body {
+    display: flex;
+    align-items: center;
+    background-color: rgba(73, 73, 8, 0.479);
+    --web-kit-background-blend-mode:light;
+    min-height: 100vh;
+    flex-direction: column;
+
+}
+
+h1 {
+    position: absolute;
+    top: 15%;
+    font-size: 3rem;
+    font-family: var(--font);
+    animation: textAnime 5s linear infinite;
+
+}
+h3{
+   
+    position: absolute;
+    top: 23%;
+    font-size: 1.5rem;
+    font-family: var(--font);
+
+}
+
+#canva {
+    background-color: rgb(227, 227, 205);
+    display: flex;
+    position: absolute;
+    top: 30%;
+    border-radius: 5px;
+
+}
+
+@keyframes textAnime {
+    0% {
+        text-shadow: 2px 2px 5px red;
+
+    }
+
+    25% {
+        text-shadow: 2px 2px 5px rgb(162, 255, 0);
+
+    }
+
+    50% {
+        text-shadow: 2px 2px 5px rgb(32, 25, 241);
+
+    }
+
+    75% {
+        text-shadow: 2px 2px 5px rgb(255, 0, 140);
+
+    }
+
+    100% {
+        text-shadow: 2px 2px 5px rgb(255, 0, 0);
+
+    }
+}
+
+span {
+    animation: Forcode 5s infinite linear;
+}
+
+@keyframes Forcode {
+
+    0% {
+        text-shadow: 2px 2px 5px yellow;
+
+    }
+
+    25% {
+        text-shadow: 2px 2px 5px rgb(0, 85, 255);
+
+    }
+
+    50% {
+        text-shadow: 2px 2px 5px rgb(45, 255, 3);
+
+    }
+
+    75% {
+        text-shadow: 2px 2px 5px rgb(254, 181, 8);
+
+    }
+
+    100% {
+        text-shadow: 2px 2px 5px yellow;
+
+    }
+}
+
